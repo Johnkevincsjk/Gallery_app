@@ -22,6 +22,7 @@ const Button = ({ setUpdateUI }) => {
     <label className="button" htmlFor="file_picker">
       <AiFillPlusCircle />
       <input
+      className="button_img"
         hidden
         type="file"
         name="file_picker"

@@ -24,6 +24,11 @@ nav {
   right: 0;
   bottom: 0;
   margin: 2rem;
+  transition: 0.2s;
+}
+
+.button:hover {
+  scale: 1.2;
 }
 
 .grid {
